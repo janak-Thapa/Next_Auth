@@ -4,7 +4,6 @@ import { NextResponse } from 'next/server';
 import jwt from 'jsonwebtoken';
 import User from '@/models/userModels';
 
-// Ensure you call connection() function
 connection();
 
 export const POST = async (req: Request) => {
